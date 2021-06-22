@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class FileAndDir {
+    //创建
     public static boolean fileCreate(File path) {
         try {
             return path.createNewFile();
@@ -11,7 +12,7 @@ public class FileAndDir {
             return false;
         }
     }
-
+    //判断存在
     public static boolean dirExist(String path,boolean create) {
         File file = new File(path);
         if (file.exists()) {
