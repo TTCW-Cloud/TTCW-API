@@ -11,8 +11,8 @@ object Items {
             PrintConsole("&a物品为NULL")
             return
         }
-        PrintConsole("&a物品种类："+i.type)
+        PrintConsole("&a物品种类："+i.type+(i.itemMeta?.displayName))
         if(i.hasItemMeta()&&i.itemMeta.hasLore())
-        PrintConsole("&a物品Lore：\n"+i.itemMeta.lore()?.joinToString("&r#行#&r"))
+        PrintConsole("&a物品Lore：\n"+i.itemMeta.lore?.joinToString("&r#行#&r"))
     }
 }
