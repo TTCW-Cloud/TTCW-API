@@ -1,5 +1,5 @@
 name: TTCW-API
-main: com.wznln.mc.BCmainlogic
+main: com.wznln.mc.api.BCmainlogic
 version: 0.0.1
 author: wznln
 description: For TTCW
