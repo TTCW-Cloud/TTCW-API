@@ -1,0 +1,7 @@
+name: TTCW-API
+main: com.wznln.mc.api.SPmainlogic
+version: 0.0.1
+api-version: "1.13"
+author: wznln
+load: STARTUP
+description: For TTCW
