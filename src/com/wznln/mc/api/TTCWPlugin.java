@@ -12,6 +12,8 @@ public class TTCWPlugin {
     private String fileName;
     private boolean running;
 
+    public TTCWPlugin(){}
+
     public TTCWPlugin(String name, int ver1, int ver2, int ver3, String desc, String main,String fileName) {
         this.name = name.trim();
         this.ver1 = ver1;
