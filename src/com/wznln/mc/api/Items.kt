@@ -5,6 +5,7 @@ import org.bukkit.inventory.ItemStack
 
 
 object Items {
+    @Suppress("DEPRECATION")
     @JvmStatic
     fun PrintItem(i: ItemStack?){
         if(i==null){
