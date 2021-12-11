@@ -13,6 +13,8 @@ TTCW-BungeeCord TTCW服务器使用的插件
 
 TTCW-EntityDamagerLimiter 结合ItemLoreOrigin实现无指定属性不得进攻MythicMobs怪物
 
+TTCW-MoreThanDamage 结合SX及其附属插件，实现血量突破MC原版上限
+
 TTCW-MMShow 结合MythicMobs提供BOSS刷新倒计时变量（PAPI）
 
 PlayerSyncTimer 修复PlayerSync不能停服保存、间隔保存的问题
