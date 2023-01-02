@@ -11,7 +11,12 @@ object FileReader {
     @JvmStatic
     fun setFileContent(path:String,content:String) = setFileContent(File(path),content)
     @JvmStatic
+    fun setFileContent(path:String,content:ByteArray) = setFileContent(File(path),content)
+    @JvmStatic
     fun setFileContent(file:File,content:String) = file.writeText(content,Charsets.UTF_8)
+
+    @JvmStatic
+    fun setFileContent(file:File,content:ByteArray) = file.writeBytes(content)
 
     @JvmStatic
     fun createFile(path:String) = createFile(File(path))
