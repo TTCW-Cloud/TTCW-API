@@ -1,0 +1,12 @@
+{
+  "id": "ttcw-api",
+  "name": "ttcw-api",
+  "version": "0.0.1",
+  "description": "TTCW Cloud",
+  "url": "https://hk.wznln.com",
+  "authors": [
+    "Xu_wznln"
+  ],
+  "dependencies": [],
+  "main": "com.wznln.mc.api.BCmainlogic"
+}

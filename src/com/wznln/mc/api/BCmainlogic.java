@@ -1,11 +1,9 @@
 package com.wznln.mc.api;
 
-import net.md_5.bungee.api.plugin.Plugin;
+import com.velocitypowered.api.plugin.Plugin;
 
-public class BCmainlogic extends Plugin {
-    @Override
-    public void onEnable() { }
+@Plugin(id = "ttcw-api", name = "TTCW-API", version = "0.0.1",
+        url = "https://hk.wznln.com", description = "TTCW Cloud", authors = {"Xu_wznln"})
+public class BCmainlogic {
 
-    @Override
-    public void onDisable() { }
 }
